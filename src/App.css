@@ -1,0 +1,33 @@
+.ctrl-btns {
+  width: 100px;
+  display: block;
+  margin: 0px 20px;
+}
+.ctrl-btns:hover {
+  color: white !important;
+}
+
+.handle-overflow {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.email-list {
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+.email-list div {
+  padding: 8px 10px;
+}
+.email-list :hover {
+  /* background-color: rgba(0, 0, 0, 0.075); */
+}
+
+.mail-links a {
+  text-decoration: none;
+  color: black;
+}

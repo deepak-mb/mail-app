@@ -1,0 +1,178 @@
+{
+    "id": "16ba13624aaba9b4",
+    "threadId": "16ba13624aaba9b4",
+    "labelIds": [
+        "CATEGORY_UPDATES",
+        "INBOX"
+    ],
+    "snippet": "Stories for Deepak Badarinath Today&#39;s highlights Scaling Your Redux App with Ducks Organizing your code for the long term Alex Moldovan in Better Programming 7 min read How I replicated an $86",
+    "historyId": "115606",
+    "internalDate": "1561777800000",
+    "payload": {
+        "partId": "",
+        "mimeType": "multipart/alternative",
+        "filename": "",
+        "headers": [
+            {
+                "name": "Delivered-To",
+                "value": "deepak01mb@gmail.com"
+            },
+            {
+                "name": "Received",
+                "value": "by 2002:a6b:ee19:0:0:0:0:0 with SMTP id i25csp264265ioh;        Fri, 28 Jun 2019 20:10:08 -0700 (PDT)"
+            },
+            {
+                "name": "X-Google-Smtp-Source",
+                "value": "APXvYqxwUvNjfdDfiZrCcMT69ZBEv9epABnfuNgJhhziYRP9HHL4zIEHMCdAzumU/WQhOZEjtxPg"
+            },
+            {
+                "name": "X-Received",
+                "value": "by 2002:a17:906:398:: with SMTP id b24mr11978350eja.78.1561777808742;        Fri, 28 Jun 2019 20:10:08 -0700 (PDT)"
+            },
+            {
+                "name": "ARC-Seal",
+                "value": "i=1; a=rsa-sha256; t=1561777808; cv=none;        d=google.com; s=arc-20160816;        b=QFKnTDe3w0LJtNjJrBqcnK8/aKnedwWh6uMxPEoXnXhIEY4Hvji+rQCE5vj343DhxY         xEFeowEfAD4zFhc3XXAbVhbvGLXml3+RxO0YEmvmiLx3YeUKSes/+bOoiwDSYTxv9TyV         O/N/BmToi3vpOrH41N46Ils3yhUUxCtTm8+ib0baz0+dPzkMlKS4T0Zn98VvyV/CfSQx         H8OtLroK/JM2wcoxql8nmCMIBi7W3mqWOgvcKFumSV7/GAJ7HRhEAFGMVciocPK2YWCj         ZM7WUiqOCjfcLHZYwWegGt6pS7K5ohqTw0/KiFszgL1glWcYdxRRKaQC/3fkPVxuFXy/         eevw=="
+            },
+            {
+                "name": "ARC-Message-Signature",
+                "value": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;        h=list-unsubscribe:subject:message-id:to:reply-to:mime-version:from         :date:dkim-signature:dkim-signature;        bh=mPn+swCVZzfBCvvxS5OfIxpNx9YmJbh9UagGzpKBCLg=;        b=G41j5ujOuL2IyYJxRaGMKwgQzPQ5grqTdrR7mU//eHWQ9dIwWapIgYh6o5lOO4qu7W         mZ//ORFrsC8XUaq76w61oXoBwuX70DbT4npKEdiynki7nY75MtlbZMk8o+upI/ggSjDh         KoSW2give7XayehX542R1W85VrotKz8N8QK1r5Lp5cFjBbyt+lhLyx4K44dD6rpbKD10         SLSalG2sU/Ewxian7QXJly+EHCkms1V/AXnxdfEJwSNDhXeXMznz27Rx91nwT6gTV7IG         t7KCOm2gOel+Y6vJpKijqFiqja/xtShwfP1FUKJXuH1pUd87kbxvIYiPvZDXln5lS1tX         P2mw=="
+            },
+            {
+                "name": "ARC-Authentication-Results",
+                "value": "i=1; mx.google.com;       dkim=pass header.i=@medium.com header.s=m1 header.b=QveV2Hgp;       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b=DYECAw51;       spf=pass (google.com: domain of bounces+1823144-2421-deepak01mb=gmail.com@email.medium.com designates 167.89.110.85 as permitted sender) smtp.mailfrom=\"bounces+1823144-2421-deepak01mb=gmail.com@email.medium.com\";       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=medium.com"
+            },
+            {
+                "name": "Return-Path",
+                "value": "\u003cbounces+1823144-2421-deepak01mb=gmail.com@email.medium.com\u003e"
+            },
+            {
+                "name": "Received",
+                "value": "from o5.email.medium.com (o5.email.medium.com. [167.89.110.85])        by mx.google.com with ESMTPS id r45si3519353edd.195.2019.06.28.20.10.07        for \u003cdeepak01mb@gmail.com\u003e        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);        Fri, 28 Jun 2019 20:10:08 -0700 (PDT)"
+            },
+            {
+                "name": "Received-SPF",
+                "value": "pass (google.com: domain of bounces+1823144-2421-deepak01mb=gmail.com@email.medium.com designates 167.89.110.85 as permitted sender) client-ip=167.89.110.85;"
+            },
+            {
+                "name": "Authentication-Results",
+                "value": "mx.google.com;       dkim=pass header.i=@medium.com header.s=m1 header.b=QveV2Hgp;       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b=DYECAw51;       spf=pass (google.com: domain of bounces+1823144-2421-deepak01mb=gmail.com@email.medium.com designates 167.89.110.85 as permitted sender) smtp.mailfrom=\"bounces+1823144-2421-deepak01mb=gmail.com@email.medium.com\";       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=medium.com"
+            },
+            {
+                "name": "DKIM-Signature",
+                "value": "v=1; a=rsa-sha1; c=relaxed/relaxed; d=medium.com; h=content-type:from:mime-version:reply-to:to:subject:list-unsubscribe; s=m1; bh=JBtn5FvcgGdhp0ARj4KIIdECllk=; b=QveV2Hgp23paS69LgvIOi79 9g7ScQn86pTXaDHMp8fgD55VJV6ompl2xCXvvA1OxKRVf2lNUHTPCHBCOD1FQ8Y6 6PeGVMkPQZB5J2Zw1SWe01MBMhHpqPcRizsbQESN2YlnN3oAePMS+N+yB8zIgakD fLW0/djW7a1kP5olOjaU="
+            },
+            {
+                "name": "DKIM-Signature",
+                "value": "v=1; a=rsa-sha1; c=relaxed/relaxed; d=sendgrid.info; h=content-type:from:mime-version:reply-to:to:subject:list-unsubscribe:x-feedback-id; s=smtpapi; bh=JBtn5FvcgGdhp0ARj4KIIdECllk=; b=DYECAw51WjSJbhV3Zx YxGc6ugdwmiNSUWd9SVmTWJjFcsdhQVRKy+8WOIFFeWT1BT2FqS2cXNApK1v7N84 WrB2o+FBs6kTQDfMoh7Gi+1nUoB8WaOEFwlnTfSqDFita4Ww7eq69UNVALXwti3x /hZ9DcrwIN5KJbfSgDUcSmKRs="
+            },
+            {
+                "name": "Received",
+                "value": "by filter0808p1las1.sendgrid.net with SMTP id filter0808p1las1-23720-5D16B437-9        2019-06-29 00:43:36.00660615 +0000 UTC m=+100843.920011913"
+            },
+            {
+                "name": "Received",
+                "value": "from MTgyMzE0NA (ec2-52-21-133-138.compute-1.amazonaws.com [52.21.133.138]) by ismtpd0008p1iad2.sendgrid.net (SG) with HTTP id LvV6b3-LShOniRbN72aGuQ Sat, 29 Jun 2019 00:43:35.877 +0000 (UTC)"
+            },
+            {
+                "name": "Content-Type",
+                "value": "multipart/alternative; boundary=02c0796b8df88774ed60fb8537a63594e44f6a555bc41bc588a7745469ed"
+            },
+            {
+                "name": "Date",
+                "value": "Sat, 29 Jun 2019 03:10:00 +0000 (UTC)"
+            },
+            {
+                "name": "From",
+                "value": "Medium Daily Digest \u003cnoreply@medium.com\u003e"
+            },
+            {
+                "name": "Mime-Version",
+                "value": "1.0"
+            },
+            {
+                "name": "Reply-to",
+                "value": "noreply@medium.com"
+            },
+            {
+                "name": "To",
+                "value": "deepak01mb@gmail.com"
+            },
+            {
+                "name": "Message-ID",
+                "value": "\u003cLvV6b3-LShOniRbN72aGuQ@ismtpd0008p1iad2.sendgrid.net\u003e"
+            },
+            {
+                "name": "Subject",
+                "value": "“Scaling Your Redux App with Ducks” published in Better Programming by Alex Moldovan"
+            },
+            {
+                "name": "List-unsubscribe",
+                "value": "\u003chttps://medium.com/me/email-settings/f5d057e828fb/f7853ce8b400?source=email-f5d057e828fb-1561766515227-digest.reader-------------------------3df2db75_4fc7_4668_a822_fbc7ddff537e&type=social\u003e"
+            },
+            {
+                "name": "X-SG-EID",
+                "value": "V404YxOq39wX9N3iQXpmuNptXqSMzzXfmyXwOfivzKay8cPnOYOO1HeoDCIIfNrJ4T1RpTqxF6oCso zbgbiHjvqADto2sxmHm59OaS2huAdq0SMW7UVviO1q71IClxdy1dO6crdQsBiTUwdQ1bt8fgBYdAb6 5g92TvvWvGOE/bFZbadgYo8BV4kn29a25zzUEnem7cFkAVclLPvrbMe9K2v9EyBKWu7iw34Zn2PxJU g="
+            },
+            {
+                "name": "X-SG-ID",
+                "value": "D6Z+UOEZAHNtlrjTKHUMDzHpuMmuorvp/7tfKlWNOafcl3mbL2f6LQKsjPwt6E7qJMufJtUZsmV3FA Z1TFhUJAinXpHLlMr/C2tx1iLcqCvgayDBrdT/QoHJiWoZVGYPHUQcMy3s22XmpcfMLBqY4/z16Nxw +k8B6adjf3Ama7bcTLCzQiNfAfr29VgnOKlbZVNw55gyqMsr++aD0FukQQ=="
+            },
+            {
+                "name": "X-Feedback-ID",
+                "value": "1823144:rksEbNtEQ6Bnz0TsDXX13UBrU6m1i9dl8uXhN1gSydA=:CZ/pKfOzmNDe1pfdb7RS5r3BtifnYSeAIqL52d1Ytoc=:SG"
+            }
+        ],
+        "body": {
+            "size": 0
+        },
+        "parts": [
+            {
+                "partId": "0",
+                "mimeType": "text/plain",
+                "filename": "",
+                "headers": [
+                    {
+                        "name": "Content-Transfer-Encoding",
+                        "value": "quoted-printable"
+                    },
+                    {
+                        "name": "Content-Type",
+                        "value": "text/plain; charset=UTF-8"
+                    },
+                    {
+                        "name": "Mime-Version",
+                        "value": "1.0"
+                    }
+                ],
+                "body": {
+                    "size": 15142,
+                    "data": "first mail"
+                }
+            },
+            {
+                "partId": "1",
+                "mimeType": "text/html",
+                "filename": "",
+                "headers": [
+                    {
+                        "name": "Content-Transfer-Encoding",
+                        "value": "quoted-printable"
+                    },
+                    {
+                        "name": "Content-Type",
+                        "value": "text/html; charset=UTF-8"
+                    },
+                    {
+                        "name": "Mime-Version",
+                        "value": "1.0"
+                    }
+                ],
+                "body": {
+                    "size": 90165,
+                    "data": "second mail"
+                }
+            }
+        ]
+    },
+    "sizeEstimate": 118092
+}
