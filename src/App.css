@@ -23,9 +23,6 @@
 .email-list div {
   padding: 8px 10px;
 }
-.email-list :hover {
-  /* background-color: rgba(0, 0, 0, 0.075); */
-}
 
 .mail-links a {
   text-decoration: none;

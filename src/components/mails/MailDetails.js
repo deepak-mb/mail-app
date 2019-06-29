@@ -28,16 +28,7 @@ class MailDetails extends Component {
     });
   }
   render() {
-    const {
-      id,
-      attachments,
-      body,
-      conversations,
-      date,
-      from,
-      subject
-    } = this.state;
-    // console.log(conversations);
+    const { conversations } = this.state;
     if (!conversations) {
       return <p>Loading...</p>;
     } else {

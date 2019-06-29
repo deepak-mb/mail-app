@@ -8,10 +8,8 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navbar from "./components/layout/Navbar";
 import MailComponents from "./components/mails/MailComponents";
 import Login from "./components/layout/Login";
-import Mails from "./components/mails/Mails";
 import Compose from "./components/mails/Compose";
 import Inbox from "./components/mails/Inbox";
-import InboxList from "./components/mails/InboxList";
 import MailDetails from "./components/mails/MailDetails";
 
 class App extends Component {
@@ -33,7 +31,6 @@ class App extends Component {
               <div className="row" style={{ paddingTop: "5rem" }}>
                 <MailComponents />
                 <div className="col-10">
-                  <Route exact path="/mails" component={Mails} />
                   <Switch>
                     <Route exact path="/compose" component={Compose} />
                     <Route exact path="/inbox" component={Inbox} />

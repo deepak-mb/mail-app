@@ -16,7 +16,7 @@ class Compose extends Component {
   };
   onSubmit = e => {
     e.preventDefault();
-    const { id, to, subject, attachments, body } = this.state;
+    const { to, subject, attachments, body } = this.state;
     if (to === undefined || to === "") {
       alert(`Please enter a recepient.`);
     } else {
