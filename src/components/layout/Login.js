@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import PropTypes from "prop-types";
 import { login } from "../../actions/mailActions";
+import InputButton from "./InputButton";
 
 class Login extends Component {
   state = {
@@ -15,20 +16,13 @@ class Login extends Component {
   onSubmit = e => {
     e.preventDefault();
     const { email, password } = this.state;
-    // console.log(email, password);
     if (email === "testuser@test.com" && password === "password") {
-      // this.props.login(true);
       sessionStorage.setItem("loggedIn", "true");
       window.location.reload();
-      // this.props.history.push("/compose");
     } else {
       alert(`Incorrect Login credentials.`);
     }
   };
-  componentWillReceiveProps(nextProps) {
-    // console.log(nextProps);
-    // this.setState({ loggedIn: nextProps.loggedIn });
-  }
   render() {
     return (
       <div className="d-flex p-4" style={{ marginTop: "5rem" }}>
@@ -39,11 +33,10 @@ class Login extends Component {
         >
           <div className="form-group">
             <label htmlFor="exampleInputEmail1">Email address</label>
-            <input
+            <InputButton
               type="email"
               className="form-control"
               id="exampleInputEmail1"
-              aria-describedby="emailHelp"
               placeholder="Enter email"
               name="email"
               defaultValue="testuser@test.com"
@@ -52,7 +45,7 @@ class Login extends Component {
           </div>
           <div className="form-group">
             <label htmlFor="exampleInputPassword1">Password</label>
-            <input
+            <InputButton
               type="password"
               className="form-control"
               id="exampleInputPassword1"

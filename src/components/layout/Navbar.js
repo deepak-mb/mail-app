@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import PropTypes from "prop-types";
 import { logout } from "../../actions/mailActions";
 
 class Navbar extends Component {
@@ -18,13 +17,8 @@ class Navbar extends Component {
     let loggedIn = sessionStorage.getItem("loggedIn");
     this.setState({ loggedIn: loggedIn });
   }
-  componentWillReceiveProps(nextProps) {
-    // console.log(nextProps);
-    // this.setState({ loggedIn: nextProps.loggedIn });
-  }
   render() {
     const { loggedIn } = this.state;
-    // console.log(loggedIn);
     return (
       <nav className="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
         <a className="navbar-brand" href="http://localhost:3001">
@@ -43,13 +37,7 @@ class Navbar extends Component {
         </button>
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav mr-auto">
-            {/* <li className="nav-item active">
-            <a className="nav-link" href="#">
-              Home <span className="sr-only">(current)</span>
-            </a>
-          </li> */}
-          </ul>
+          <ul className="navbar-nav mr-auto" />
           <form className="form-inline my-2 my-lg-0" onSubmit={this.onSubmit}>
             {loggedIn === "true" ? (
               <button className="btn btn-danger my-2 my-sm-0" type="submit">
@@ -63,9 +51,6 @@ class Navbar extends Component {
   }
 }
 
-Navbar.propTypes = {
-  loggedIn: PropTypes.bool.isRequired
-};
 const mapStateToProps = state => ({
   loggedIn: state.mails.loggedIn
 });
