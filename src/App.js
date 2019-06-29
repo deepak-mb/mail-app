@@ -28,7 +28,7 @@ class App extends Component {
       <Provider store={store}>
         <Router>
           <Navbar />
-          <div>
+          <div className="container">
             {/* Checking if user is logged in and displaying components based on the status  */}
             {loggedIn !== "false" ? (
               <div className="row" style={{ paddingTop: "5rem" }}>

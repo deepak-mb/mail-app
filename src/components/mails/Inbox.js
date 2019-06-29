@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import { getEmails } from "../../actions/mailActions";
 import InboxList from "./InboxList";
+import PageTitle from "../layout/PageTitle";
 
 class Inbox extends Component {
   // If the component is loaded, fetch the email list
@@ -13,11 +14,14 @@ class Inbox extends Component {
   render() {
     const { inboxMails } = this.props;
     return (
-      <div className="card mail-links">
-        {/* Passing the details to another component to render the list*/}
-        {inboxMails.map(mail => (
-          <InboxList key={mail.id} mail={mail} />
-        ))}
+      <div>
+        <PageTitle title="Inbox" />
+        <div className="card mail-links">
+          {/* Passing the details to another component to render the list*/}
+          {inboxMails.map(mail => (
+            <InboxList key={mail.id} mail={mail} />
+          ))}
+        </div>
       </div>
     );
   }

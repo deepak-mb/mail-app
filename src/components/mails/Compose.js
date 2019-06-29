@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import { sendEmail } from "../../actions/mailActions";
 import uuid from "uuid";
+import PageTitle from "../layout/PageTitle";
 
 class Compose extends Component {
   state = {
@@ -43,6 +44,7 @@ class Compose extends Component {
     const { to, subject, attachments, body } = this.state;
     return (
       <div>
+        <PageTitle title="Compose email" />
         <form onSubmit={this.onSubmit}>
           <div className="form-group">
             <label htmlFor="toEmail">To:</label>
@@ -74,6 +76,7 @@ class Compose extends Component {
             <input
               type="file"
               accept="/*"
+              className="btn btn-secondary mx-2"
               name="attachments"
               id="attachments"
               value={attachments}
