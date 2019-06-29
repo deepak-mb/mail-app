@@ -27,9 +27,8 @@ class App extends Component {
     return (
       <Provider store={store}>
         <Router>
-          {loggedIn === "false" ? <Login /> : null}
-          <div className="">
-            <Navbar />
+          <Navbar />
+          <div>
             {loggedIn !== "false" ? (
               <div className="row">
                 <MailComponents />
@@ -46,7 +45,9 @@ class App extends Component {
                   </Switch>
                 </div>
               </div>
-            ) : null}
+            ) : (
+              <Login />
+            )}
           </div>
         </Router>
       </Provider>
