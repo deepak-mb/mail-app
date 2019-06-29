@@ -28,12 +28,10 @@ class Compose extends Component {
         attachments,
         body
       };
-      // console.log(email);
       this.props.sendEmail(email);
       alert(`Success! Email has been sent to ${to}`);
       this.onClear();
     }
-    // console.log(to, subject, attachments, body);
   };
   onClear = () => {
     this.setState({ id: "", to: "", subject: "", attachments: "", body: "" });

@@ -1,8 +1,4 @@
 import React, { Component } from "react";
-import { connect } from "react-redux";
-import PropTypes from "prop-types";
-import { login } from "../../actions/mailActions";
-import InputButton from "./InputButton";
 
 class Login extends Component {
   state = {
@@ -33,7 +29,7 @@ class Login extends Component {
         >
           <div className="form-group">
             <label htmlFor="exampleInputEmail1">Email address</label>
-            <InputButton
+            <input
               type="email"
               className="form-control"
               id="exampleInputEmail1"
@@ -45,7 +41,7 @@ class Login extends Component {
           </div>
           <div className="form-group">
             <label htmlFor="exampleInputPassword1">Password</label>
-            <InputButton
+            <input
               type="password"
               className="form-control"
               id="exampleInputPassword1"
@@ -63,14 +59,5 @@ class Login extends Component {
     );
   }
 }
-
-const mapStateToProps = state => ({
-  loggedIn: state.mails.loggedIn
-});
-
-// export default connect(
-//   mapStateToProps,
-//   { login }
-// )(Login);
 
 export default Login;
