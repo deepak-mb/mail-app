@@ -128,7 +128,35 @@
       "attachments": "attachment1.txt",
       "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       "date": "12/5/2018",
-      "conversations": null
+      "conversations": [
+        {
+          "convId": "0",
+          "mail": {
+            "from": "ltunder0@cloudflare.com",
+            "subject": "Merit Medical Systems, Inc.",
+            "attachments": "attachment1.txt",
+            "body": "and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+          }
+        },
+        {
+          "convId": "1",
+          "mail": {
+            "from": "srain1@princeton.edu",
+            "subject": "Fuwei Films (Holdings) Co., Ltd.",
+            "attachments": "attachment1.txt",
+            "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+          }
+        },
+        {
+          "convId": "2",
+          "mail": {
+            "from": "cseavers2@amazon.com",
+            "subject": "Sino-Global Shipping America, Ltd.",
+            "attachments": "attachment1.txt",
+            "body": "and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+          }
+        }
+      ]
     },
     {
       "id": 4,
@@ -137,7 +165,18 @@
       "attachments": "attachment1.txt",
       "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       "date": "4/23/2019",
-      "conversations": null
+      "opened": "false",
+      "conversations": [
+        {
+          "convId": "0",
+          "mail": {
+            "from": "ltunder0@cloudflare.com",
+            "subject": "Merit Medical Systems, Inc.",
+            "attachments": "attachment1.txt",
+            "body": "and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+          }
+        }
+      ]
     },
     {
       "id": 5,
@@ -146,7 +185,18 @@
       "attachments": "attachment1.txt",
       "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       "date": "5/28/2019",
-      "conversations": null
+      "opened": "true",
+      "conversations": [
+        {
+          "convId": "0",
+          "mail": {
+            "from": "ltunder0@cloudflare.com",
+            "subject": "Merit Medical Systems, Inc.",
+            "attachments": "attachment1.txt",
+            "body": "and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+          }
+        }
+      ]
     },
     {
       "id": 6,
@@ -155,7 +205,18 @@
       "attachments": "attachment1.txt",
       "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       "date": "10/29/2018",
-      "conversations": null
+      "opened": "true",
+      "conversations": [
+        {
+          "convId": "0",
+          "mail": {
+            "from": "ltunder0@cloudflare.com",
+            "subject": "Merit Medical Systems, Inc.",
+            "attachments": "attachment1.txt",
+            "body": "and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+          }
+        }
+      ]
     },
     {
       "id": 7,
@@ -164,7 +225,18 @@
       "attachments": "attachment1.txt",
       "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       "date": "12/5/2018",
-      "conversations": null
+      "opened": "false",
+      "conversations": [
+        {
+          "convId": "0",
+          "mail": {
+            "from": "ltunder0@cloudflare.com",
+            "subject": "Merit Medical Systems, Inc.",
+            "attachments": "attachment1.txt",
+            "body": "and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+          }
+        }
+      ]
     },
     {
       "id": 8,
@@ -173,7 +245,18 @@
       "attachments": "attachment1.txt",
       "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       "date": "6/7/2019",
-      "conversations": null
+      "opened": "false",
+      "conversations": [
+        {
+          "convId": "0",
+          "mail": {
+            "from": "ltunder0@cloudflare.com",
+            "subject": "Merit Medical Systems, Inc.",
+            "attachments": "attachment1.txt",
+            "body": "and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+          }
+        }
+      ]
     },
     {
       "id": 9,
@@ -182,7 +265,18 @@
       "attachments": "attachment1.txt",
       "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       "date": "5/26/2019",
-      "conversations": null
+      "opened": "false",
+      "conversations": [
+        {
+          "convId": "0",
+          "mail": {
+            "from": "ltunder0@cloudflare.com",
+            "subject": "Merit Medical Systems, Inc.",
+            "attachments": "attachment1.txt",
+            "body": "and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+          }
+        }
+      ]
     },
     {
       "id": 10,
@@ -191,7 +285,18 @@
       "attachments": "attachment1.txt",
       "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       "date": "9/20/2018",
-      "conversations": null
+      "opened": "true",
+      "conversations": [
+        {
+          "convId": "0",
+          "mail": {
+            "from": "ltunder0@cloudflare.com",
+            "subject": "Merit Medical Systems, Inc.",
+            "attachments": "attachment1.txt",
+            "body": "and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+          }
+        }
+      ]
     },
     {
       "id": 11,
@@ -200,7 +305,18 @@
       "attachments": "attachment1.txt",
       "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       "date": "6/19/2019",
-      "conversations": null
+      "opened": "false",
+      "conversations": [
+        {
+          "convId": "0",
+          "mail": {
+            "from": "ltunder0@cloudflare.com",
+            "subject": "Merit Medical Systems, Inc.",
+            "attachments": "attachment1.txt",
+            "body": "and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+          }
+        }
+      ]
     },
     {
       "id": 12,
@@ -209,7 +325,18 @@
       "attachments": "attachment1.txt",
       "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       "date": "2/13/2019",
-      "conversations": null
+      "opened": "true",
+      "conversations": [
+        {
+          "convId": "0",
+          "mail": {
+            "from": "ltunder0@cloudflare.com",
+            "subject": "Merit Medical Systems, Inc.",
+            "attachments": "attachment1.txt",
+            "body": "and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+          }
+        }
+      ]
     },
     {
       "id": 13,
@@ -218,7 +345,18 @@
       "attachments": "attachment1.txt",
       "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       "date": "2/28/2019",
-      "conversations": null
+      "opened": "true",
+      "conversations": [
+        {
+          "convId": "0",
+          "mail": {
+            "from": "ltunder0@cloudflare.com",
+            "subject": "Merit Medical Systems, Inc.",
+            "attachments": "attachment1.txt",
+            "body": "and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+          }
+        }
+      ]
     },
     {
       "id": 14,
@@ -227,7 +365,18 @@
       "attachments": "attachment1.txt",
       "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       "date": "4/10/2019",
-      "conversations": null
+      "opened": "false",
+      "conversations": [
+        {
+          "convId": "0",
+          "mail": {
+            "from": "ltunder0@cloudflare.com",
+            "subject": "Merit Medical Systems, Inc.",
+            "attachments": "attachment1.txt",
+            "body": "and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+          }
+        }
+      ]
     },
     {
       "id": 15,
@@ -236,7 +385,18 @@
       "attachments": "attachment1.txt",
       "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       "date": "3/19/2019",
-      "conversations": null
+      "opened": "true",
+      "conversations": [
+        {
+          "convId": "0",
+          "mail": {
+            "from": "ltunder0@cloudflare.com",
+            "subject": "Merit Medical Systems, Inc.",
+            "attachments": "attachment1.txt",
+            "body": "and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+          }
+        }
+      ]
     },
     {
       "id": 16,
@@ -245,7 +405,18 @@
       "attachments": "attachment1.txt",
       "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       "date": "2/15/2019",
-      "conversations": null
+      "opened": "false",
+      "conversations": [
+        {
+          "convId": "0",
+          "mail": {
+            "from": "ltunder0@cloudflare.com",
+            "subject": "Merit Medical Systems, Inc.",
+            "attachments": "attachment1.txt",
+            "body": "and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+          }
+        }
+      ]
     },
     {
       "id": 17,
@@ -254,7 +425,18 @@
       "attachments": "attachment1.txt",
       "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       "date": "3/23/2019",
-      "conversations": null
+      "opened": "true",
+      "conversations": [
+        {
+          "convId": "0",
+          "mail": {
+            "from": "ltunder0@cloudflare.com",
+            "subject": "Merit Medical Systems, Inc.",
+            "attachments": "attachment1.txt",
+            "body": "and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+          }
+        }
+      ]
     },
     {
       "id": 18,
@@ -263,7 +445,18 @@
       "attachments": "attachment1.txt",
       "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       "date": "9/9/2018",
-      "conversations": null
+      "opened": "true",
+      "conversations": [
+        {
+          "convId": "0",
+          "mail": {
+            "from": "ltunder0@cloudflare.com",
+            "subject": "Merit Medical Systems, Inc.",
+            "attachments": "attachment1.txt",
+            "body": "and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+          }
+        }
+      ]
     },
     {
       "id": 19,
@@ -272,7 +465,18 @@
       "attachments": "attachment1.txt",
       "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       "date": "2/10/2019",
-      "conversations": null
+      "opened": "true",
+      "conversations": [
+        {
+          "convId": "0",
+          "mail": {
+            "from": "ltunder0@cloudflare.com",
+            "subject": "Merit Medical Systems, Inc.",
+            "attachments": "attachment1.txt",
+            "body": "and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+          }
+        }
+      ]
     },
     {
       "id": 20,
@@ -281,36 +485,19 @@
       "attachments": "attachment1.txt",
       "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       "date": "4/29/2019",
-      "conversations": null
+      "opened": "true",
+      "conversations": [
+        {
+          "convId": "0",
+          "mail": {
+            "from": "ltunder0@cloudflare.com",
+            "subject": "Merit Medical Systems, Inc.",
+            "attachments": "attachment1.txt",
+            "body": "and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+          }
+        }
+      ]
     }
   ],
-  "sentEmails": [
-    {
-      "id": "e8fd8278-5dec-459e-acfb-e2ab0d8996a5",
-      "to": [
-        "deepak25mb@gmail.com"
-      ],
-      "subject": "testing subject",
-      "attachments": "C:\\fakepath\\My Resume.pdf",
-      "body": "Testing body"
-    },
-    {
-      "id": "564a2587-3a47-413c-8c58-603f43d27c5f",
-      "to": [
-        "deepak25mb@gmail.com"
-      ],
-      "subject": "testing subject",
-      "attachments": "",
-      "body": "asasas"
-    },
-    {
-      "id": "dbc5ce74-8924-4d77-9559-3492922e320a",
-      "to": [
-        "deepak25mb@gmail.com"
-      ],
-      "subject": "",
-      "attachments": "",
-      "body": ""
-    }
-  ]
+  "sentEmails": []
 }
