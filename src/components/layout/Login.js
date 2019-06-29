@@ -1,3 +1,4 @@
+// Login component
 import React, { Component } from "react";
 
 class Login extends Component {
@@ -9,6 +10,7 @@ class Login extends Component {
   onChange = e => {
     this.setState({ [e.target.name]: e.target.value });
   };
+  // Logging the user into the app on click of login if email and password are correct
   onSubmit = e => {
     e.preventDefault();
     const { email, password } = this.state;
@@ -19,6 +21,7 @@ class Login extends Component {
       alert(`Incorrect Login credentials.`);
     }
   };
+  // The Login component
   render() {
     return (
       <div className="d-flex p-4" style={{ marginTop: "5rem" }}>

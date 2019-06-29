@@ -1,3 +1,4 @@
+// Manipulating the data and storing it in the store of redux
 import {
   LOGIN,
   LOGOUT,
@@ -13,6 +14,7 @@ const initialState = {
   fullMail: []
 };
 
+// Executing tasks based on the data passed from the actions
 export default function(state = initialState, action) {
   switch (action.type) {
     case LOGIN:

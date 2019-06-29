@@ -1,6 +1,8 @@
 import { LOGIN, LOGOUT, SEND_EMAIL, GET_EMAILS, GET_FULL_MAIL } from "./types";
 import axios from "axios";
 
+// Making api calls to fetch data and pass it onto server
+// Login API call
 export const login = () => dispatch => {
   dispatch({
     type: LOGIN,
@@ -8,6 +10,7 @@ export const login = () => dispatch => {
   });
 };
 
+// Logout API call
 export const logout = () => dispatch => {
   dispatch({
     type: LOGOUT,
@@ -15,6 +18,7 @@ export const logout = () => dispatch => {
   });
 };
 
+// Send email API call
 export const sendEmail = email => async dispatch => {
   // axios.post(`http://localhost:3000/sentEmails`, email).then(res => {
   // console.log(res.data);
@@ -25,6 +29,7 @@ export const sendEmail = email => async dispatch => {
   // });
 };
 
+// Fetch emails API call
 export const getEmails = () => async dispatch => {
   await axios.get(`http://localhost:3000/receivedEmails`).then(res => {
     dispatch({
@@ -34,6 +39,7 @@ export const getEmails = () => async dispatch => {
   });
 };
 
+// Get full email API call
 export const getFullMail = id => async dispatch => {
   await axios.get(`http://localhost:3000/receivedEmails/${id}`).then(res => {
     dispatch({

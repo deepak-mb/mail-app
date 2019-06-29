@@ -1,3 +1,4 @@
+// The complete email component
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import { getFullMail } from "../../actions/mailActions";
@@ -12,6 +13,7 @@ class MailDetails extends Component {
     from: "",
     subject: ""
   };
+  // Making an api call and fetching the email
   componentDidMount() {
     const { id } = this.props.match.params;
     this.props.getFullMail(id);
@@ -27,6 +29,7 @@ class MailDetails extends Component {
       subject: nextProps.fullMail.subject
     });
   }
+  // Rendering the complete email
   render() {
     const { conversations } = this.state;
     if (!conversations) {

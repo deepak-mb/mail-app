@@ -1,3 +1,4 @@
+// Navbar component
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import { logout } from "../../actions/mailActions";
@@ -6,6 +7,7 @@ class Navbar extends Component {
   state = {
     loggedIn: ""
   };
+  // Logging the user out of the app if clicked on logout button
   onSubmit = e => {
     e.preventDefault();
     this.setState({ loggedIn: false });
@@ -17,6 +19,7 @@ class Navbar extends Component {
     let loggedIn = sessionStorage.getItem("loggedIn");
     this.setState({ loggedIn: loggedIn });
   }
+  // Rendering the navbar
   render() {
     const { loggedIn } = this.state;
     return (
@@ -39,6 +42,7 @@ class Navbar extends Component {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto" />
           <form className="form-inline my-2 my-lg-0" onSubmit={this.onSubmit}>
+            {/* Displaying the logout button based on status of the user */}
             {loggedIn === "true" ? (
               <button className="btn btn-danger my-2 my-sm-0" type="submit">
                 Logout

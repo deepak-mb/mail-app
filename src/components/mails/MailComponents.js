@@ -1,7 +1,9 @@
+// The control list component
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
 class MailComponents extends Component {
+  // Redering the left control panel
   render() {
     return (
       <div className="col-2">

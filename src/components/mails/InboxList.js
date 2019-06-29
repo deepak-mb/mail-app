@@ -1,3 +1,4 @@
+// The list component to render emails in inbox
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import classnames from "classnames";
@@ -5,9 +6,11 @@ import classnames from "classnames";
 class InboxList extends Component {
   render() {
     let { id, from, body, date, opened } = this.props.mail;
+    // Checking if the mail has been opened or not
     if (opened === "true") {
       opened = "";
     }
+    // Redering the mail list
     return (
       <Link to={`/mailDetails/${id}`}>
         <div

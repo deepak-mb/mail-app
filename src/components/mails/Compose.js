@@ -1,3 +1,4 @@
+// Create email component
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import { sendEmail } from "../../actions/mailActions";
@@ -14,6 +15,7 @@ class Compose extends Component {
   onChange = e => {
     this.setState({ [e.target.name]: e.target.value });
   };
+  // Submitting the email from the form
   onSubmit = e => {
     e.preventDefault();
     const { to, subject, attachments, body } = this.state;
@@ -36,6 +38,7 @@ class Compose extends Component {
   onClear = () => {
     this.setState({ id: "", to: "", subject: "", attachments: "", body: "" });
   };
+  // Rendering the create component
   render() {
     const { to, subject, attachments, body } = this.state;
     return (
