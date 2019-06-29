@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 class MailComponents extends Component {
   render() {
     return (
-      <div className="col-2" style={{ marginTop: "4rem" }}>
+      <div className="col-2">
         <div className="p-2">
           <Link
             to="/compose"

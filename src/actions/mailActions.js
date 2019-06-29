@@ -15,11 +15,14 @@ export const logout = () => dispatch => {
   });
 };
 
-export const sendEmail = email => dispatch => {
+export const sendEmail = email => async dispatch => {
+  // axios.post(`http://localhost:3000/sentEmails`, email).then(res => {
+  //   console.log(res);
   dispatch({
     type: SEND_EMAIL,
     payload: email
   });
+  // });
 };
 
 export const getEmails = () => async dispatch => {

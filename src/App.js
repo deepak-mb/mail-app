@@ -30,9 +30,9 @@ class App extends Component {
           <Navbar />
           <div>
             {loggedIn !== "false" ? (
-              <div className="row">
+              <div className="row" style={{ paddingTop: "5rem" }}>
                 <MailComponents />
-                <div className="col-10" style={{ marginTop: "5rem" }}>
+                <div className="col-10">
                   <Route exact path="/mails" component={Mails} />
                   <Switch>
                     <Route exact path="/compose" component={Compose} />

@@ -8,7 +8,7 @@ import {
 
 const initialState = {
   loggedIn: false,
-  email: [],
+  sentEmails: [],
   inbox: [],
   fullMail: []
 };
@@ -28,7 +28,7 @@ export default function(state = initialState, action) {
     case SEND_EMAIL:
       return {
         ...state,
-        email: [action.payload, ...state.email]
+        sentEmails: [action.payload, ...state.sentEmails]
       };
 
     case GET_EMAILS:

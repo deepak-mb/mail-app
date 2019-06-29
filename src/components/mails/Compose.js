@@ -16,7 +16,7 @@ class Compose extends Component {
   };
   onSubmit = e => {
     e.preventDefault();
-    const { to, subject, attachments, body } = this.state;
+    const { id, to, subject, attachments, body } = this.state;
     if (to === undefined || to === "") {
       alert(`Please enter a recepient.`);
     } else {
@@ -28,7 +28,7 @@ class Compose extends Component {
         attachments,
         body
       };
-      console.log(email);
+      // console.log(email);
       this.props.sendEmail(email);
       alert(`Success! Email has been sent to ${to}`);
       this.onClear();

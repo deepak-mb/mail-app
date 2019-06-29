@@ -27,7 +27,7 @@ class Navbar extends Component {
     // console.log(loggedIn);
     return (
       <nav className="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-        <a className="navbar-brand" href="!#">
+        <a className="navbar-brand" href="http://localhost:3001">
           Mail App
         </a>
         <button
