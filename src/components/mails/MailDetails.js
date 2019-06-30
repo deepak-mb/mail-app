@@ -1,7 +1,12 @@
 // The complete email component
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import { getFullMail } from "../../actions/mailActions";
+import {
+  getFullMail,
+  getSentMail,
+  getDraftMail,
+  getTrashMail
+} from "../../actions/mailActions";
 
 class MailDetails extends Component {
   state = {
@@ -11,30 +16,63 @@ class MailDetails extends Component {
     conversations: "",
     date: "",
     from: "",
-    subject: ""
+    subject: "",
+    singleMail: []
   };
   // Making an api call and fetching the email
   componentDidMount() {
     const { id } = this.props.match.params;
-    this.props.getFullMail(id);
+    let path = this.props.match.path;
+    if (path === "/inbox/:id") {
+      this.props.getFullMail(id);
+    } else if (path === "/sentMails/:id") {
+      this.props.getSentMail(id);
+    } else if (path === "/drafts/:id") {
+      this.props.getDraftMail(id);
+    } else if (path === "/trash/:id") {
+      this.props.getTrashMail(id);
+    }
   }
+  //Saving data to the state
   componentWillReceiveProps(nextProps) {
-    this.setState({
-      id: nextProps.fullMail.id,
-      attachments: nextProps.fullMail.attachments,
-      body: nextProps.fullMail.body,
-      conversations: nextProps.fullMail.conversations,
-      date: nextProps.fullMail.date,
-      from: nextProps.fullMail.from,
-      subject: nextProps.fullMail.subject
-    });
+    let path = this.props.match.path;
+    if (path === "/inbox/:id") {
+      this.setState({
+        id: nextProps.fullMail.id,
+        attachments: nextProps.fullMail.attachments,
+        body: nextProps.fullMail.body,
+        conversations: nextProps.fullMail.conversations,
+        date: nextProps.fullMail.date,
+        from: nextProps.fullMail.from,
+        subject: nextProps.fullMail.subject
+      });
+    } else if (path === "/sentMails/:id") {
+      this.setState({ singleMail: nextProps.sentFullMail });
+    } else if (path === "/drafts/:id") {
+      this.setState({ singleMail: nextProps.draftFullMail });
+    } else if (path === "/trash/:id") {
+      this.setState({ singleMail: nextProps.trashFullMail });
+    }
   }
   // Rendering the complete email
   render() {
     const { conversations } = this.state;
     if (!conversations) {
-      return <p>Loading...</p>;
+      let { from, subject, attachments, body } = this.state.singleMail;
+      return (
+        <div className="card">
+          <div className="card-body">
+            <h5 className="card-title">{subject}</h5>
+            <h6 className="card-subtitle mb-2 text-muted">{from}</h6>
+            <p className="card-text">{body}</p>
+            <a href={attachments} className="card-link">
+              {attachments}
+            </a>
+          </div>
+        </div>
+      );
     } else {
+      // console.log(conversations);
       return (
         <div className="accordion" id="accordionExample">
           {conversations.map((conversation, index) => (
@@ -97,10 +135,13 @@ class MailDetails extends Component {
 }
 
 const mapStateToProps = state => ({
-  fullMail: state.mails.fullMail
+  fullMail: state.mails.fullMail,
+  sentFullMail: state.mails.sentFullMail,
+  draftFullMail: state.mails.draftFullMail,
+  trashFullMail: state.mails.trashFullMail
 });
 
 export default connect(
   mapStateToProps,
-  { getFullMail }
+  { getFullMail, getSentMail, getDraftMail, getTrashMail }
 )(MailDetails);

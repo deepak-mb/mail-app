@@ -11,6 +11,9 @@ import MailComponents from "./components/mails/MailComponents";
 import Login from "./components/layout/Login";
 import Compose from "./components/mails/Compose";
 import Inbox from "./components/mails/Inbox";
+import SentMails from "./components/mails/SentMails";
+import DraftMails from "./components/mails/DraftMails";
+import TrashMails from "./components/mails/TrashMails";
 import MailDetails from "./components/mails/MailDetails";
 
 class App extends Component {
@@ -36,12 +39,24 @@ class App extends Component {
                 <div className="col-10">
                   <Switch>
                     <Route exact path="/compose" component={Compose} />
+
                     <Route exact path="/inbox" component={Inbox} />
+                    <Route exact path="/inbox/:id" component={MailDetails} />
+
+                    <Route exact path="/sent" component={SentMails} />
                     <Route
                       exact
-                      path="/mailDetails/:id"
+                      path="/sentMails/:id"
                       component={MailDetails}
                     />
+
+                    <Route exact path="/drafts" component={DraftMails} />
+
+                    <Route exact path="/drafts/:id" component={MailDetails} />
+
+                    <Route exact path="/trash" component={TrashMails} />
+
+                    <Route exact path="/trash/:id" component={MailDetails} />
                   </Switch>
                 </div>
               </div>

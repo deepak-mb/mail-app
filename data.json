@@ -499,5 +499,82 @@
       ]
     }
   ],
-  "sentEmails": []
+  "sentMails": [
+    {
+      "id": 1,
+      "from": "asidnall0@phpbb.com",
+      "subject": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "attachments": "attachment1.txt",
+      "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "opened": "false"
+    },
+    {
+      "id": 2,
+      "from": "asidnall0@phpbb.com",
+      "subject": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "attachments": "attachment1.txt",
+      "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "opened": "false"
+    },
+    {
+      "id": 3,
+      "from": "asidnall0@phpbb.com",
+      "subject": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "attachments": "attachment1.txt",
+      "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "opened": "false"
+    }
+  ],
+  "draftMails": [
+    {
+      "id": 1,
+      "from": "asidnall0@phpbb.com",
+      "subject": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "attachments": "attachment1.txt",
+      "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "opened": "false"
+    },
+    {
+      "id": 2,
+      "from": "asidnall0@phpbb.com",
+      "subject": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "attachments": "attachment1.txt",
+      "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "opened": "false"
+    },
+    {
+      "id": 3,
+      "from": "asidnall0@phpbb.com",
+      "subject": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "attachments": "attachment1.txt",
+      "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "opened": "false"
+    }
+  ],
+  "trashMails": [
+    {
+      "id": 1,
+      "from": "asidnall0@phpbb.com",
+      "subject": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "attachments": "attachment1.txt",
+      "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "opened": "false"
+    },
+    {
+      "id": 2,
+      "from": "asidnall0@phpbb.com",
+      "subject": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "attachments": "attachment1.txt",
+      "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "opened": "false"
+    },
+    {
+      "id": 3,
+      "from": "asidnall0@phpbb.com",
+      "subject": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "attachments": "attachment1.txt",
+      "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "opened": "false"
+    }
+  ]
 }

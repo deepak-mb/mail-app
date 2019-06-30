@@ -1,25 +1,26 @@
 // The inbox component
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import { getEmails } from "../../actions/mailActions";
+import { getTrashMails } from "../../actions/mailActions";
 import MailList from "./MailList";
 import PageTitle from "../layout/PageTitle";
 
-class Inbox extends Component {
+class TrashMails extends Component {
   // If the component is loaded, fetch the email list
   componentDidMount() {
-    this.props.getEmails();
+    this.props.getTrashMails();
   }
   // Rendering the component
   render() {
-    const { inboxMails } = this.props;
+    const { trashMails } = this.props;
+    // console.log(this.props);
     return (
       <div>
-        <PageTitle title="Inbox" />
+        <PageTitle title="Trash Mails" />
         <div className="card mail-links">
           {/* Passing the details to another component to render the list*/}
-          {inboxMails.map(mail => (
-            <MailList key={mail.id} mail={mail} type="inbox" />
+          {trashMails.map(mail => (
+            <MailList key={mail.id} mail={mail} type="trash" />
           ))}
         </div>
       </div>
@@ -28,10 +29,10 @@ class Inbox extends Component {
 }
 
 const mapStateToProps = state => ({
-  inboxMails: state.mails.inbox
+  trashMails: state.mails.trashMails
 });
 
 export default connect(
   mapStateToProps,
-  { getEmails }
-)(Inbox);
+  { getTrashMails }
+)(TrashMails);
